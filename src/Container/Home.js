@@ -12,14 +12,14 @@ import Icon from '@expo/vector-icons/FontAwesome5';
 import { TouchableOpacity } from "react-native";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBise9gOo6Pt2xUWkX58zYB-P5pJPa6Ehw",
-    authDomain: "screentask-12db2.firebaseapp.com",
-    databaseURL: "https://screentask-12db2.firebaseio.com",
-    projectId: "screentask-12db2",
-    storageBucket: "screentask-12db2.appspot.com",
-    messagingSenderId: "169388035967",
-    appId: "1:169388035967:web:d7446bcf8e61c90c9b944a",
-    measurementId: "G-8X3MD9QPQX"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig)
